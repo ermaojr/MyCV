@@ -1,0 +1,102 @@
+html {overflow-y:scroll; overflow-x: hidden;} 
+body {margin:0; padding:0;background:#ffffff; font: "微软雅黑"; color: #fff;} 
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;} 
+table,td,tr,th{font-size:12px;} 
+li{list-style-type:none;} 
+img{vertical-align:top;border:0;} 
+ol,ul {list-style:none;} 
+h1,h2,h3,h4,h5,h6{font-size:12px; font-weight:normal;} 
+address,cite,code,em,th {font-weight:normal; font-style:normal;} 
+h1{font-size: 60px;}
+p{font-size: 22px; margin-top:10px; }
+a{text-decoration: none; color: #fff;}a:hover{color: #9AFF9A;}
+@font-face{
+	font-family: 'Lato';
+	src:url('Lato-LightItalic.ttf');
+}
+#title{
+	margin:20px 0 0 0;
+}
+.center{
+	text-align: center;
+}
+.head{
+	background-image: url(../images/123.jpg); 
+	background-size:100% 100%;
+}
+.head h1{
+	font-weight: normal;
+}
+#tablang{
+	position: absolute;
+    right: 20px;
+    top: 20px;
+    border-radius: 5px;
+    z-index: 100;
+    font-size: 0.8em;
+}
+#welcome{
+	opacity: 0;
+	font-size: 90px;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 420px;
+}
+#myphoto{
+	width:220px;
+	height: auto;
+}
+.tag-panel{
+	margin:15px auto;
+}
+.tag{
+	background-color:#545454;
+	color:#aee2d9;
+	border-radius:3px;
+	display:inline-block;
+	padding:2px 8px;
+	margin-right:3px;
+	margin-bottom:3px;
+	opacity:0.6;
+}
+.tag.expert{
+	opacity:1;
+}
+.tag.familiar
+{
+	opacity:0.8;
+}
+#project div{
+	padding-top: 20px;
+}
+#project p{
+	padding-top: 10px;
+	width: 800px;
+	margin: 0 auto;
+}
+#project a{
+	margin-top:100px;
+}
+#project img{
+	height: 70px;
+	width: auto;
+	padding-right: 20px;
+}
+#hr{
+	margin: 0 auto;
+	width: 500px;
+	background:#ccc;
+}
+form{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.font-lato{
+	font-family: 'Lato';
+	font-weight: bold;
+}
+.title-font{
+	font-family: '幼圆';
+	font-weight: bolder;
+}
